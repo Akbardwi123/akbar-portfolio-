@@ -105,8 +105,8 @@ export const projects = [
     featured: false,
     github: 'https://github.com/Akbardwi123/mock-api-generator',
     description: {
-      id: 'Developer tool berbasis Node.js dan Laravel untuk membuat mock API endpoint secara mandiri tanpa dependensi penuh pada backend.',
-      en: 'Node.js and Laravel-based developer tool to create mock API endpoints independently without full backend dependency.',
+      id: 'Developer tool berbasis Node.js (TypeScript) untuk membuat mock API endpoint secara mandiri tanpa dependensi penuh pada backend.',
+      en: 'Node.js (TypeScript)-based developer tool to create mock API endpoints independently without full backend dependency.',
     },
     highlights: {
       id: [
@@ -120,7 +120,7 @@ export const projects = [
         'Accelerated feature development by eliminating cross-team dependency bottlenecks.',
       ],
     },
-    tech: ['Node.js', 'Laravel', 'PHP', 'REST API', 'Developer Tools'],
+    tech: ['Node.js', 'TypeScript', 'REST API', 'Developer Tools'],
     icon: '⚡',
   },
   {
