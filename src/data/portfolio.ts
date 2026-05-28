@@ -75,27 +75,29 @@ export const experiences = [
 export const projects = [
   {
     id: 1,
-    title: 'WA Gateway SaaS',
+    title: 'WA Gateway SaaS Dashboard',
     date: { id: 'Maret 2026', en: 'March 2026' },
     featured: true,
     github: 'https://github.com/Akbardwi123/wa-gateway-saas',
     description: {
-      id: 'Platform SaaS multi-tenant berbasis Node.js yang memungkinkan otomatisasi pengiriman pesan WhatsApp massal melalui integrasi REST API.',
-      en: 'Node.js-based multi-tenant SaaS platform enabling automated bulk WhatsApp message delivery through REST API integration.',
+      id: 'Platform SaaS manajemen & otomasi WhatsApp massal berbasis arsitektur dual-service: Laravel 12 (Dashboard Utama & Payment Gateway) dan Node.js Express (WhatsApp Gateway Microservice).',
+      en: 'WhatsApp mass message automation & management SaaS platform powered by a dual-service architecture: Laravel 12 (Main Dashboard & Payment Gateway) and Node.js Express (WhatsApp Gateway Microservice).',
     },
     highlights: {
       id: [
-        'Membangun platform SaaS multi-tenant untuk otomatisasi pesan WhatsApp massal via REST API.',
-        'Merancang arsitektur database multi-tenant untuk isolasi data dan keamanan konfigurasi antar klien.',
-        'Menyediakan dokumentasi API endpoint untuk integrasi dengan CRM dan platform e-commerce.',
+        'Mengembangkan sistem penagihan otomatis yang terintegrasi langsung dengan Payment Gateway Xendit SDK.',
+        'Merancang microservice Node.js menggunakan library @whiskeysockets/baileys untuk penanganan WebSocket WhatsApp Web API secara efisien.',
+        'Membangun komunikasi status koneksi WhatsApp & notifikasi real-time via Laravel Reverb (Websockets) dan Laravel Echo.',
+        'Menerapkan antrean asinkron (Laravel Queue Database Driver) untuk optimasi transaksi pengiriman pesan massal.',
       ],
       en: [
-        'Built multi-tenant SaaS platform for bulk WhatsApp message automation via REST API.',
-        'Designed multi-tenant database architecture ensuring data isolation and configuration security per client.',
-        'Provided API endpoint documentation ready for parallel integration with CRM and e-commerce platforms.',
+        'Developed automated subscription billing integrated with Xendit Payment Gateway SDK.',
+        'Designed a Node.js Express microservice using @whiskeysockets/baileys for efficient WhatsApp Web WebSocket connection handling.',
+        'Built real-time connection status updates & notifications using Laravel Reverb (Websockets) and Laravel Echo.',
+        'Applied asynchronous queue processing via Laravel Queue to manage bulk messaging throughput efficiently.',
       ],
     },
-    tech: ['Node.js', 'Express.js', 'MySQL', 'REST API', 'SaaS', 'Multi-tenant'],
+    tech: ['Laravel 12', 'Node.js', 'Express.js', 'Websockets (Reverb)', 'MySQL', 'Xendit API', 'Baileys API', 'Tailwind CSS', 'Alpine.js'],
     icon: '💬',
   },
   {
